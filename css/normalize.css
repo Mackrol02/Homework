@@ -1,0 +1,349 @@
+/*! normalize.css v8.0.1 | Licencja MIT | github.com/necolas/normalize.css */
+
+/* Dokument
+   ================================================== ======================== */
+
+/**
+ * 1. Popraw wysokość linii we wszystkich przeglądarkach.
+ * 2. Zapobiegaj dopasowywaniu rozmiaru czcionki po zmianie orientacji w systemie iOS.
+ */
+
+html {
+  wysokość linii: 1,15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sekcje
+   ================================================== ======================== */
+
+/**
+ * Usuń margines we wszystkich przeglądarkach.
+ */
+
+ciało {
+  margines: 0;
+}
+
+/**
+ * Konsekwentnie renderuj element „główny” w IE.
+ */
+
+główny {
+  Blok wyświetlacza;
+}
+
+/**
+ * Popraw rozmiar czcionki i margines na elementach `h1` w obrębie `sekcji` i
+ * Konteksty „artykułów” w przeglądarkach Chrome, Firefox i Safari.
+ */
+
+h1 {
+  rozmiar czcionki: 2em;
+  margines: 0,67em 0;
+}
+
+/* Grupowanie zawartości
+   ================================================== ======================== */
+
+/**
+ * 1. Dodaj prawidłowy rozmiar pudełka w przeglądarce Firefox.
+ * 2. Pokaż przepełnienie w Edge i IE.
+ */
+
+godz. {
+  rozmiar pudełka: pudełko z zawartością; /* 1 */
+  wysokość: 0; /* 1 */
+  przelew: widoczny; /* 2 */
+}
+
+/**
+ * 1. Popraw dziedziczenie i skalowanie rozmiaru czcionki we wszystkich przeglądarkach.
+ * 2. Popraw nieparzysty rozmiar czcionki `em` we wszystkich przeglądarkach.
+ */
+
+przed {
+  rodzina czcionek: monospace, monospace; /* 1 */
+  rozmiar czcionki: 1em; /* 2 */
+}
+
+/* Semantyka na poziomie tekstu
+   ================================================== ======================== */
+
+/**
+ * Usuń szare tło na aktywnych linkach w IE 10.
+ */
+
+A {
+  kolor tła: przezroczysty;
+}
+
+/**
+ * 1. Usuń dolną ramkę w Chrome 57-
+ * 2. Dodaj poprawną dekorację tekstu w przeglądarkach Chrome, Edge, IE, Opera i Safari.
+ */
+
+skrót [tytuł] {
+  obramowanie na dole: brak; /* 1 */
+  dekoracja tekstu: podkreślenie; /* 2 */
+  dekoracja tekstu: podkreślenie w kropki; /* 2 */
+}
+
+/**
+ * Dodaj poprawną grubość czcionki w Chrome, Edge i Safari.
+ */
+
+B,
+mocny {
+  waga czcionki: pogrubiona;
+}
+
+/**
+ * 1. Popraw dziedziczenie i skalowanie rozmiaru czcionki we wszystkich przeglądarkach.
+ * 2. Popraw nieparzysty rozmiar czcionki `em` we wszystkich przeglądarkach.
+ */
+
+kod,
+kbd,
+próbka {
+  rodzina czcionek: monospace, monospace; /* 1 */
+  rozmiar czcionki: 1em; /* 2 */
+}
+
+/**
+ * Dodaj prawidłowy rozmiar czcionki we wszystkich przeglądarkach.
+ */
+
+mały {
+  rozmiar czcionki: 80%;
+}
+
+/**
+ * Zapobiegaj wpływaniu elementów `sub` i `sup` na wysokość linii w
+ * wszystkie przeglądarki.
+ */
+
+pod,
+sup {
+  rozmiar czcionki: 75%;
+  wysokość linii: 0;
+  pozycja: względna;
+  wyrównanie w pionie: linia bazowa;
+}
+
+pod {
+  dół: -0,25em;
+}
+
+sup {
+  góra: -0,5em;
+}
+
+/* Osadzone treści
+   ================================================== ======================== */
+
+/**
+ * Usuń obramowanie obrazów wewnątrz linków w IE 10.
+ */
+
+img {
+  styl obramowania: brak;
+}
+
+/* Formularze
+   ================================================== ======================== */
+
+/**
+ * 1. Zmień style czcionek we wszystkich przeglądarkach.
+ * 2. Usuń margines w Firefox i Safari.
+ */
+
+przycisk,
+wejście,
+optgroup,
+wybierać,
+pole tekstowe {
+  rodzina czcionek: dziedziczyć; /* 1 */
+  rozmiar czcionki: 100%; /* 1 */
+  wysokość linii: 1,15; /* 1 */
+  margines: 0; /* 2 */
+}
+
+/**
+ * Pokaż przepełnienie w IE.
+ * 1. Pokaż przepełnienie w Edge.
+ */
+
+przycisk,
+wprowadź { /* 1 */
+  przelew: widoczny;
+}
+
+/**
+ * Usuń dziedziczenie transformacji tekstu w Edge, Firefox i IE.
+ * 1. Usuń dziedziczenie transformacji tekstu w Firefoksie.
+ */
+
+przycisk,
+wybierz { /* 1 */
+  transformacja tekstu: brak;
+}
+
+/**
+ * Popraw niemożność stylizowania klikalnych typów w iOS i Safari.
+ */
+
+przycisk,
+[typ="przycisk"],
+[typ="resetuj"],
+[type="prześlij"] {
+  -wygląd-webkit: przycisk;
+}
+
+/**
+ * Usuń wewnętrzne obramowanie i wypełnienie w Firefoksie.
+ */
+
+przycisk::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="prześlij"]::-moz-focus-inner {
+  styl obramowania: brak;
+  wypełnienie: 0;
+}
+
+/**
+ * Przywróć style skupienia nieustawione przez poprzednią regułę.
+ */
+
+przycisk:-moz-ogniskowanie,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="prześlij"]:-moz-focusring {
+  kontur: 1px w kropki ButtonText;
+}
+
+/**
+ * Popraw dopełnienie w Firefoksie.
+ */
+
+zestaw pól {
+  wypełnienie: 0,35 em 0,75 em 0,625 em;
+}
+
+/**
+ * 1. Popraw zawijanie tekstu w Edge i IE.
+ * 2. Popraw dziedziczenie kolorów z elementów `fieldset` w IE.
+ * 3. Usuń dopełnienie, aby programiści nie zostali złapani, gdy wyzerują
+ * Elementy `fieldset` we wszystkich przeglądarkach.
+ */
+
+legenda {
+  rozmiar pudełka: ramka-pudełko; /* 1 */
+  kolor: dziedziczyć; /* 2 */
+  wyświetlacz: stolik; /* 1 */
+  maksymalna szerokość: 100%; /* 1 */
+  wypełnienie: 0; /* 3 */
+  biała spacja: normalna; /* 1 */
+}
+
+/**
+ * Dodaj prawidłowe wyrównanie w pionie w przeglądarkach Chrome, Firefox i Opera.
+ */
+
+postęp {
+  wyrównanie w pionie: linia bazowa;
+}
+
+/**
+ * Usuń domyślny pionowy pasek przewijania w IE 10+.
+ */
+
+pole tekstowe {
+  przelew: automatyczny;
+}
+
+/**
+ * 1. Dodaj prawidłowy rozmiar pudełka w IE 10.
+ * 2. Usuń dopełnienie w IE 10.
+ */
+
+[typ="pole wyboru"],
+[type="radio"] {
+  rozmiar pudełka: ramka-pudełko; /* 1 */
+  wypełnienie: 0; /* 2 */
+}
+
+/**
+ * Popraw styl kursora przycisków zwiększania i zmniejszania w Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  wysokość: automatyczna;
+}
+
+/**
+ * 1. Popraw dziwny wygląd w Chrome i Safari.
+ * 2. Popraw styl konturu w Safari.
+ */
+
+[type="szukaj"] {
+  -wygląd-webkit: pole tekstowe; /* 1 */
+  przesunięcie konturu: -2px; /* 2 */
+}
+
+/**
+ * Usuń wewnętrzną wyściółkę w Chrome i Safari w systemie macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -wygląd-webkit: brak;
+}
+
+/**
+ * 1. Popraw niemożność stylizowania klikalnych typów w iOS i Safari.
+ * 2. Zmień właściwości czcionki na „dziedzicz” w Safari.
+ */
+
+::-przycisk-przesyłania-pliku-webkit {
+  -wygląd-webkit: przycisk; /* 1 */
+  czcionka: dziedziczyć; /* 2 */
+}
+
+/* Interaktywne
+   ================================================== ======================== */
+
+/*
+ * Dodaj poprawne wyświetlanie w Edge, IE 10+ i Firefox.
+ */
+
+Detale {
+  Blok wyświetlacza;
+}
+
+/*
+ * Dodaj poprawne wyświetlanie we wszystkich przeglądarkach.
+ */
+
+streszczenie {
+  wyświetlanie: element-listy;
+}
+
+/* Różne
+   ================================================== ======================== */
+
+/**
+ * Dodaj poprawny wyświetlacz w IE 10+.
+ */
+
+szablon {
+  Nie wyświetla się;
+}
+
+/**
+ * Dodaj poprawne wyświetlanie w IE 10.
+ */
+
+[ukryty] {
+  Nie wyświetla się;
+}
